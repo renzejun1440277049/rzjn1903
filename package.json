@@ -1,0 +1,20 @@
+{
+  "name": "rzjn1903",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renzejun1440277049/rzjn1903.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renzejun1440277049/rzjn1903/issues"
+  },
+  "homepage": "https://github.com/renzejun1440277049/rzjn1903#readme",
+  "keywords": [],
+  "description": ""
+}
