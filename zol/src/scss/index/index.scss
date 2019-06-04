@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+/* header */
+@import "header.scss";
+
+/* main */
+@import "main.scss";
+/* footer */
+@import "footer.scss";
+.clearfix:after{
+  content: "";
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  display: block;
+  visibility: hidden;
+}
+/* 公用属性 */
+a {
+  color: #000000;
+  text-decoration: none;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #333;
+  background: #f6f6f6;
+}
+/* 共用类名 */
+.original{
+  margin-left: 10px;
+  font-size: 12px;
+  display: inline-block;
+  text-decoration: line-through;
+}
+// 字体
+.f22{
+  font-size: 22px;
+}
+.f12 {
+  font-size: 12px;
+}
+.f14 {
+  font-size: 14px;
+}
+.c-red{
+  color: red;
+}
+.c99 {
+  color: #999;
+}
+.c333{
+  color: #333;
+}
+// 浮动
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+// 空间
+.mb {
+  margin-bottom: 10px;
+}
+.mt {
+  margin-top: 10px;
+}
+.mt20{
+  margin-top: 20px;
+}
+.ml-20{
+  margin-left: -20px;
+}
+.ml10{
+  margin-left: 10px;
+}
+.ml20{
+  margin-left: 20px;
+}
+.pr12 {
+  padding-right: 12px;
+}
+.pl12 {
+  padding-left: 12px;
+}
+//
+.white-bg {
+  background: white;
+}

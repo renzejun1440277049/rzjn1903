@@ -1,0 +1,190 @@
+@charset "utf-8";
+//公用属性
+$padding: 20px !important;
+$lfbackground-color: #fff;
+$rgbackground-color: #fff;
+$border: none;
+$lfwidth: 850px;
+$lfheight: 280px;
+$rgwidth: 250px;
+$rgheight: 180px;
+$mb: 20px;
+
+#main {
+  width: 1200px;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.content {
+  width: 890px;
+  height: auto;
+  margin-right: 10px;
+}
+/* 左侧内容 */
+.content {
+  width: 890px;
+  margin-right: 10px;
+}
+/* 今日抢购 */
+
+/* 会买专辑 */
+.buying-album {
+  margin-top: 10px;
+  padding: 20px;
+  background-color: $lfbackground-color;
+}
+.buying-album h2 {
+  width: 96px;
+  height: 22px;
+  background: url(../../img/huimaizhuanji-74ca0853b2.png);
+  text-indent: -999em;
+}
+.buying-album .item {
+  width: 154px;
+}
+
+.buying-album .item img {
+  width: 100%;
+  height: 100%;
+}
+/* 优选推荐 */
+#Highquality-recommended {
+  padding: $padding;
+  background-color: $lfbackground-color;
+}
+#Highquality-recommended .title {
+  margin-bottom: 20px;
+}
+#Highquality-recommended .title h2 {
+  background: url(../../img/huixuantuijian-6f6cfca2d9.png);
+  width: 94px;
+  height: 23px;
+  text-indent: -999px;
+}
+#Highquality-recommended .icon-jiao {
+  position: absolute;
+  padding: 0 5px;
+  height: 20px;
+  line-height: 20px;
+  color: #fff;
+  -webkit-border-radius: 0 0 3px 0;
+  border-radius: 0 0 3px 0;
+  background: linear-gradient(90deg, #ef8d7a, #ee7184);
+  font-style: inherit;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+
+#Highquality-recommended .refresh-list .item-list {
+  width: 850px;
+  margin-top: 20px;
+  border-bottom: 1px solid #f4f4f4;
+}
+#Highquality-recommended .refresh-list .item-list .pic-box {
+  position: relative;
+}
+
+#Highquality-recommended .refresh-list .item-list .info-box {
+  width: 668px;
+  height: 184px;
+  margin-left: 20px;
+}
+#Highquality-recommended .refresh-list .item-list .info-box dt {
+  font-size: 20px;
+  font-weight: bold;
+}
+#Highquality-recommended .refresh-list .item-list .info-box dd {
+  margin-top: 20px;
+  color: #666;
+  font-size: 14px;
+}
+
+/* 加载区域 */
+.load .loading {
+  display: block;
+  width: 130px;
+  height: 32px;
+  line-height: 32px;
+  margin: 0 auto;
+  background: url(http://icon.zol-img.com.cn/mobile/slide/loading.gif) no-repeat;
+  color: #999;
+  font-size: 20px;
+  padding-left: 35px;
+}
+.item-list {
+  width: 850px;
+}
+
+/* 右侧内容 */
+.siled {
+  width: 300px;
+}
+
+/* 同城好店 */
+.localshop {
+  height: auto;
+  padding: $padding;
+  background: #fff;
+}
+.localshop .item {
+  margin-top: 10px;
+}
+.star {
+  display: block;
+  width: 55px;
+  height: 11px;
+  background: url(../../img/icon_03-24caa8eb58.png);
+}
+/* 同城好店下方广告 */
+.localshop-bw {
+  height: auto;
+  padding: $padding;
+
+  background: #fff;
+}
+/* 热门团购 */
+.hotdeals {
+  padding: $padding;
+  background: #fff;
+  margin: 10px 0;
+}
+.hotdeals .title h2 {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.hotdeals .title span {
+  display: inline-block;
+  margin-left: 20px;
+}
+/* 热门团购下方广告 */
+.hotdeals-bw {
+  padding: $padding;
+  background: #fff;
+  margin-bottom: $mb;
+}
+/* 回到顶部 */
+
+.backtoppic {
+  background: red;
+  width: 24px;
+  height: 24px;
+  position: fixed;
+  right: 32px;
+  bottom: 70px;  
+  
+}
+.backtoptext{
+  width: 24px;
+  height: 24px;
+  line-height: 24px; 
+  font-size: 12px;
+  text-align: center;
+  position: fixed;
+  right: 32px;
+  bottom: 70px; 
+  background: #fff;
+}

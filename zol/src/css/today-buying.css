@@ -1,0 +1,67 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+#today-buying {
+	overflow: hidden;
+	font-size: 14px;
+	font-family: Microsoft YaHei, Helvetica Neue, Helvetica, Arial, PingFang SC, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+}
+#today-buying .today-buying-title{
+	padding: 20px;
+}
+#today-buying .today-buying-title h2 {
+	
+	background: url(https://icon.zol-img.com.cn/daogou/src/assets/components/title/images/jinriqianggou-07e20c3114.png) no-repeat;
+	width: 96px;
+	height: 22px;
+	text-indent: -999em;
+}
+
+#today-buying a {
+	color: #727272;
+	text-decoration: none;
+}
+
+#today-buying ul {
+	width: 920px;
+	margin: 0 auto;
+}
+
+#today-buying ul:after {
+	content: "";
+	height: 0;
+	display: block;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+#today-buying li {
+	float: left;
+	width: 154px;
+	height: 242px;
+	list-style: none;
+	padding: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#today-buying li img {
+	width: 100%;
+}
+
+#today-buying li p {
+	height: 36px;
+	line-height: 36px;
+	font-size: 22px;
+	color: #f74b44;
+}
+
+/* content */
+
+.content ul li a h4 {
+	height: 61px;
+	line-height: 15px
+}

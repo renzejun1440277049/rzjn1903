@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* 重置部分样式 */
+//body默认字体
+body {
+  font: 12px/1.5 Arial;
+  color: #333;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+/* 公用类名 */
+.wrapper {
+  width: 990px;
+  margin: 0 auto;
+}
+.clearfix::after {
+  content: "";
+  height: 0;
+  display: block;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+//字体
+.ft14 {
+  font-size: 14px;
+}
+/* body背景 */
+.login-index {
+  background: #fafafa;
+  margin: 50px 0;
+}
+
+/* body */
+
+/* header头部 */
+.header {
+  padding: 14px 0 20px 0;
+}
+//logo
+.header .logo p {
+  margin: 8px 0 0 8px;
+  padding-left: 10px;
+  border-left: 1px solid #e6e6e6;
+  line-height: 44px;
+  color: #666666;
+  font: 14px/44px simsun;
+}
+
+//右登陆注册按钮
+.header .register-bar {
+  padding: 21px 0 0;
+}
+.header .register-bar span {
+  text-align: right;
+  width: 220px;
+  font-size: 14px;
+  line-height: 22px;
+}
+.header .register-bar a:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #cd1f1f;
+  text-decoration: none;
+}
+.header .register-bar a {
+  display: block;
+  height: 16px;
+  padding: 3px 10px;
+  color: #c00;
+  font: normal 14px/14px "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1";
+}
+
+/* 主题表单内容部分 */
+//登陆主题包装
+
+.form-item {
+  width: 290px;
+  margin: 0 0 10px;
+  padding: 8px 5px;
+  height: 22px;
+  border: 1px solid #ccc;
+}
+//左侧广告盒子
+
+//右侧登陆层
+.login-layer {
+  float: right;
+  padding: 0 85px 0 0;
+  width: 290px;
+}
+//头部标题
+.login-head {
+  position: relative;
+  zoom: 1;
+  padding: 20px 0 0;
+  border-bottom: 2px solid #e6e6e6;
+}
+.login-head h3 {
+  display: block;
+  width: 50%;
+  float: left;
+  height: 35px;
+  overflow: hidden;
+  font: 18px/35px "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1";
+  color: #666;
+  text-align: center;
+  margin-bottom: -2px;
+  cursor: pointer;
+}
+.login-head h3 .curLogin {
+  border-bottom: 2px solid #de3030;
+  color: #333;
+}
+//中部内容
+.login-content {
+  padding: 25px 0 0;
+}
+.form-item {
+  position: relative;
+  margin: 0 0 7px;
+  padding: 8px 5px;
+  height: 22px;
+  border: 1px solid #ccc;
+}
+.form-item .text {
+  display: block;
+  width: 278px;
+  height: 22px;
+  font: 14px/22px "Arial";
+  border: 0 none;
+}
+//
+.form-other {
+  padding: 0 0 10px;
+  overflow: hidden;
+  zoom: 1;
+}
+.form-other .otherLogin-bar {
+  padding: 0 0 0 17px;
+  background: url(https://login.zol.com/image/shop_login_bg.png) no-repeat -276px -137px;
+  color: #333;
+  line-height: 28px;
+}
+.form-other a.forget-password {
+  line-height: 28px;
+}
+
+.login-layer-btn {
+  display: block;
+  margin: 0 0 10px;
+  width: 290px;
+  height: 40px;
+  font: bold 14px/40px "Arial";
+  color: #fff;
+  text-align: center;
+  border: 0 none;
+  background: #c00;
+  cursor: pointer;
+}
+/* 合作账户登陆  */
+.collaborate {
+  width: 290px;
+  text-align: center;
+  margin-top: 15px;
+  color: #666666;
+}
+.collaborate .line {
+  float: left;
+  height: 1px;
+  background: #ccc;
+  width: 100px;
+  margin-top: 7px;
+}
+.collaborate p {
+  float: left;
+}
+.line:first-child {
+  margin-right: 9px;
+}
+.line:last-child {
+  margin-left: 9px;
+}
+.collaborate p {
+  float: left;
+}
+.login-foot {
+  margin-top: 10px;
+}
+.login-foot .weixin {
+  float: left;
+  margin: 0 12px 0 25px;
+  width: 38px;
+  height: 38px;
+  text-indent: -9999em;
+  overflow: hidden;
+  background: url(../../img/bgs2.png) 0 0 no-repeat;
+}
+.login-foot .sina,
+.login-foot .qq,
+.login-foot .alipay,
+.login-foot .baidu {
+  float: left;
+  margin: 0 12px 0 0;
+  width: 38px;
+  height: 38px;
+  text-indent: -9999em;
+  overflow: hidden;
+  background: url(../../img/bg.png) 0 0 no-repeat;
+}
+.login-foot .sina {
+  background-position: 0 -82px;
+}
+.login-foot .qq {
+  background-position: -39px -82px;
+}
+.login-foot .alipay {
+  background-position: -78px -82px;
+}
+.login-foot .baidu {
+  background-position: -117px -82px;
+}
+/* footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 50px 0 0;
+  padding: 12px 0 25px;
+  border-top: 1px solid #dcdcdc;
+}
+.about {
+  margin-left: -10px;
+}
+.footer .about a {
+  margin: 0 10px;
+  color: #666;
+}

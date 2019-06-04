@@ -1,0 +1,60 @@
+@charset "utf-8";
+// $box_width:100px;
+$box_height: 78px;
+//不适合存在
+
+header {
+  width: auto;
+  height: 78px;
+  background: #ffffff;
+  font-size: 12px;
+  border-bottom: 2px solid #f74b44;
+}
+.wrapper {
+  width: 1200px;
+  height: 76px;
+  margin: 0 auto;
+}
+/* 左logo */
+.logo-wrapper {
+  width: 229px;
+  height: 100%;
+  float: left;
+}
+.logo {
+  width: 106px;
+  padding-top: 20px;
+  margin-right: 20px;
+}
+/* 中导航 */
+.nav-box {
+  width: auto;
+  line-height: 76px;
+  padding-left: 65px;
+}
+.nav-box a {
+  line-height: 76px;
+  font-size: 18px;
+  padding: 25px 50px 25px 0;
+}
+/* 右登陆注册 */
+.login-start {
+  line-height: 76px;
+  font-size: 14px;
+}
+.login-start span {
+  cursor: pointer;
+}
+.login-start span:hover{
+  color: red
+}
+.login-start a,
+.login-start span {
+  padding: 0 10px;
+}
+.login-start .mark {
+  color: #f74b44;
+}
+.login-start .line {
+  border-left: 1px solid #ccc;
+}
